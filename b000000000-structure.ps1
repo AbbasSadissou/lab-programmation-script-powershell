@@ -6,9 +6,13 @@
     Ce script est utilisé pour le laboratoire de programmation en Powershell.
 
 .NOTES
-    Author: CollegeBoreal
+    Author: AbbasSadissou
     Derniere mise à jour: yyyy-mm-dd
 
 #>
 
-Write-Host "Bonjour Monde"
+$personneNom = "Alice"
+$personneAge = 35
+
+
+Write-Host "Bonjour $personneNom, tu as $personneAge ans."
